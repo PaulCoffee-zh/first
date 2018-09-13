@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class HashMapTest {
 	public static void main(String[] args) {
+		
 		HashMap<String, String> map = new HashMap<String, String>();
 		MapArray<String, String> myMap = new MapArray<String, String>(3);
 		myMap.tableSizeFor(12);
